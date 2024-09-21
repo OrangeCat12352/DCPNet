@@ -2,7 +2,7 @@
 
 ⭐ This code has been completely released ⭐ 
 
-⭐  ⭐ 
+⭐ our [article](https://www.mdpi.com/2079-9292/13/18/3755) ⭐ 
 
 # 📖 Introduction
 <span style="font-size: 125%">
@@ -13,7 +13,19 @@ As the core technology of artificial intelligence, salient object detection (SOD
 If our code is helpful to you, please cite:
 
 ```
-
+@Article{electronics13183755,
+AUTHOR = {Li, Hongli and Chen, Xuhui and Mei, Liye and Yang, Wei},
+TITLE = {Dual-Stream Feature Collaboration Perception Network for Salient Object Detection in Remote Sensing Images},
+JOURNAL = {Electronics},
+VOLUME = {13},
+YEAR = {2024},
+NUMBER = {18},
+ARTICLE-NUMBER = {3755},
+URL = {https://www.mdpi.com/2079-9292/13/18/3755},
+ISSN = {2079-9292},
+ABSTRACT = {As the core technology of artificial intelligence, salient object detection (SOD) is an important approach to improve the analysis efficiency of remote sensing images by intelligently identifying key areas in images. However, existing methods that rely on a single strategy, convolution or Transformer, exhibit certain limitations in complex remote sensing scenarios. Therefore, we developed a Dual-Stream Feature Collaboration Perception Network (DCPNet) to enable the collaborative work and feature complementation of Transformer and CNN. First, we adopted a dual-branch feature extractor with strong local bias and long-range dependence characteristics to perform multi-scale feature extraction from remote sensing images. Then, we presented a Multi-path Complementary-aware Interaction Module (MCIM) to refine and fuse the feature representations of salient targets from the global and local branches, achieving fine-grained fusion and interactive alignment of dual-branch features. Finally, we proposed a Feature Weighting Balance Module (FWBM) to balance global and local features, preventing the model from overemphasizing global information at the expense of local details or from inadequately mining global cues due to excessive focus on local information. Extensive experiments on the EORSSD and ORSSD datasets demonstrated that DCPNet outperformed the current 19 state-of-the-art methods.},
+DOI = {10.3390/electronics13183755}
+}
 ```
 # Saliency maps
    We provide saliency maps of our and compared methods at [here](https://pan.baidu.com/s/1S3JdGOEv54g6e1IlXNqGdg?pwd=hmpg) on two datasets (ORSSD and EORSSD).
